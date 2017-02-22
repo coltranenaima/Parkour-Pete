@@ -8,5 +8,10 @@ void poll_event(sf::RenderWindow &window, sf::Event &event)
 		{
 			window.close();
 		}
+
+		if ((event.type == event.KeyPressed) && (event.key.code == sf::Keyboard::Escape))
+		{
+			window.close();
+		}
 	}
 }
