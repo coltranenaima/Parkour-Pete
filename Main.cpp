@@ -10,7 +10,7 @@ int main()
 	while (game_window.isOpen())
 	{
 		poll_event(game_window, event);
-		draw_to_screen(game_window);
+		draw_to_window(game_window);
 	}
 
 	return 0;
